@@ -10,9 +10,7 @@ variable "opc_user_name" {
     default = "opc"
 }
 
-variable "ssh_public_key" {
-	default = "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA+/WnQBuzxsiOWxzoPrNeAESsROSRhpVuwgefqC0ejgRHYJXZqlx/Y//SUOyNfM8SooOKNaIQ+TVHc0Ct5p+o7+/3SDnBTqYy/jNjsNvkbPP3awqPClOJ7gL82O/o3Ced1ZyOKKEy11JoesUTKvjk6lY8+aGtbsn4hgAIkGdDIFom2fDyW4A9a3ysijXdk5PGd6UDbe/1UvChQkfmdye9kL6mfVlTqdgv+oTnjHA2ZFhHJOAtobmV2vaRWjWEf7eWRNEPsdVG7abzoExRe+JM1nhTiwCqyGu57HIBirHLzfNX9ij5T6ZvaVE9o+AKygKNEjUsmA6Hi6WudnDSvw1JHw== mmarukaw@MMARUKAW-LAP2"
-}
+variable "ssh_public_key" {}
 
 variable "ssh_private_key" {}
 
