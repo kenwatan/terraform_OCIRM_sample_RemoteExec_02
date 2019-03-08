@@ -1,6 +1,4 @@
-variable "compartment_ocid" {
-	default = "ocid1.compartment.oc1..aaaaaaaawauppvhxfrnt63qzn65nwaacwhzcfrpam4ujyfctvmuf2wzp5aeq"
-}
+variable "compartment_ocid" {}
 
 variable "region" {
 	default = "us-ashburn-1"
